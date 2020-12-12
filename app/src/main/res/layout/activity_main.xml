@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+    android:background="@color/black">
+
+   <LinearLayout
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:context=".MainActivity"
+       android:orientation="vertical"
+       android:background="@color/black">
+
+      <include layout="@layout/custom_blue_rad_button"
+      android:id="@+id/blue_button"
+      />
+
+      <include layout="@layout/custom_clear_button"
+          android:id="@+id/clear_button"/>
+
+      <include layout="@layout/custom_linear_gradiant_button"
+          android:id="@+id/lin_grad_button"/>
+
+      <include layout="@layout/custom_rectangle_button_green"
+          android:id="@+id/green_button" />
+
+      <include layout="@layout/custom_round_button"
+          android:id="@+id/round_button"
+          />
+
+      <ImageView
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:src="@drawable/show"
+          android:layout_gravity="center_horizontal"
+          android:background="@android:color/transparent"
+          android:id="@+id/imageView"
+          android:contentDescription="TODO" />
+
+
+       <com.facebook.login.widget.LoginButton
+           android:id="@+id/login_button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="30dp"
+           android:layout_marginBottom="30dp" />
+
+
+       <com.google.android.gms.common.SignInButton
+           android:id="@+id/google_sigin_button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+   </ScrollView>

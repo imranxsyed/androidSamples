@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Samples</string>
+    <string name="login_with_facebook_account">Login With Facebook Account</string>
+
+    <!-- Facebook Login Page-->
+    <string name="facebook_app_id">746141089646469</string>
+    <string name="fb_login_protocol_scheme">fb746141089646469</string>
+</resources>

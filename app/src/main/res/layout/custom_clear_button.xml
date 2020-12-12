@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <ImageButton android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="#FA71CD"
+        android:background="@drawable/custom_clear_button_style"
+        android:clickable="true"
+        android:focusable="true"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="My Button"
+    android:textColor="#FFFA71CD"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_gravity="center_horizontal|center_vertical"/>
+
+</FrameLayout>
+
