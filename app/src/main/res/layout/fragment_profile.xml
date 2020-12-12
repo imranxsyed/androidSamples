@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment"
+    android:background="@drawable/profile_header_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="">
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jon Doe"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+
+            android:paddingTop="12dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jon.doe@gmail.com"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_pic"
+            android:padding="4dp"
+            android:layout_gravity="center"
+            android:background="@drawable/black_border"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(102)-456-789"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/phone_icon"
+                android:drawableEnd="@drawable/edit_icon"
+                android:drawablePadding="12dp"
+                android:padding="8dp"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jon.doe@gmail.com"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/email_icon"
+                android:drawableEnd="@drawable/edit_icon"
+                android:drawablePadding="12dp"
+                android:padding="8dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123 Street Marietta, GA"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/address_icon"
+                android:drawableEnd="@drawable/edit_icon"
+                android:drawablePadding="12dp"
+                android:padding="8dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VISA CARD"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/payment_icon"
+                android:drawableEnd="@drawable/edit_icon"
+                android:drawablePadding="12dp"
+                android:padding="8dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/fl_log_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+
+            <ImageButton
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_sign_out_style">
+
+            </ImageButton>
+
+            <TextView
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Out"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

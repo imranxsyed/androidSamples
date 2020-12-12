@@ -31,14 +31,14 @@
           android:id="@+id/round_button"
           />
 
-      <ImageView
-          android:layout_width="200dp"
-          android:layout_height="200dp"
-          android:src="@drawable/show"
-          android:layout_gravity="center_horizontal"
-          android:background="@android:color/transparent"
-          android:id="@+id/imageView"
-          android:contentDescription="TODO" />
+<!--      <ImageView-->
+<!--          android:layout_width="200dp"-->
+<!--          android:layout_height="200dp"-->
+<!--          android:src="@drawable/show"-->
+<!--          android:layout_gravity="center_horizontal"-->
+<!--          android:background="@android:color/transparent"-->
+<!--          android:id="@+id/imageView"-->
+<!--          android:contentDescription="TODO" />-->
 
 
        <com.facebook.login.widget.LoginButton

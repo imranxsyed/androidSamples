@@ -4,7 +4,9 @@ android:color="@color/design_default_color_primary">
 <item android:id="@android:id/background">
     <shape
         android:shape="rectangle">
-        <solid android:color="#66F9B0"/>
+        <solid android:color="#429bb8"/>
+        <corners android:radius="5dp"/>
+        <stroke android:width="2dp" android:color="@color/black"/>
     </shape>
 </item>
 </ripple>
